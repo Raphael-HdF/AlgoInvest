@@ -1,16 +1,16 @@
 class StockAction:
 
-    def __init__(self, action, benefice, cout):
+    def __init__(self, name, profit, price):
         try:
-            if '%' in benefice:
-                self.benefit = float(benefice.replace('%', '')) / 100
+            if '%' in profit:
+                self.benefit = float(profit.replace('%', '')) / 100
             else:
-                self.benefit = float(benefice)
-            self.cost = float(cout)
-            self.revenu = self.benefit * self.cost
-            self.name = action
+                self.benefit = float(profit) / 100
+            self.cost = float(price)
+            self.revenu = round(self.benefit * self.cost, 2)
+            self.name = name
         except BaseException as e:
-            print("On action", action, "We have an error :", e)
+            print("On action", name, "We have an error :", e)
 
     def __repr__(self):
         return self.name
