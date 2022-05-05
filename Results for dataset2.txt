@@ -58,7 +58,7 @@ Share-ECAQ cost(31.66) revenu(12.5)
 ; 
 -----------------------------------------
 
-Function '__init__' ran in 19.6495258808136 seconds
+Function 'launch_optimisation' ran in 1.7876055240631104 seconds
 
 
 V3
