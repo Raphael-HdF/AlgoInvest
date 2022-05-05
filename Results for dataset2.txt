@@ -1,0 +1,115 @@
+RESULTS FOR DATAS : dataset1_Python+P7.csv
+
+
+V1
+
+-----------------------------------------
+WALLET
+Revenus:194.88	Cost:493.1	Number of actions:17
+Actions:
+Share-ECAQ cost(31.66) revenu(12.5)
+; Share-FWBE cost(18.31) revenu(7.29)
+; Share-ZOFA cost(25.32) revenu(10.07)
+; Share-PLLK cost(19.94) revenu(7.96)
+; Share-OPBR cost(39.0) revenu(15.19)
+; Share-ANFX cost(38.55) revenu(15.31)
+; Share-PATS cost(27.7) revenu(11.07)
+; Share-NDKR cost(33.06) revenu(13.19)
+; Share-ALIY cost(29.08) revenu(11.61)
+; Share-JWGF cost(48.69) revenu(19.44)
+; Share-JGTW cost(35.29) revenu(13.91)
+; Share-FAPS cost(32.57) revenu(12.88)
+; Share-ZKSN cost(22.83) revenu(8.82)
+; Share-IJFT cost(40.91) revenu(15.91)
+; Share-LFXB cost(14.83) revenu(5.9)
+; Share-DWSK cost(29.49) revenu(11.6)
+; Share-GEBJ cost(5.87) revenu(2.23)
+; 
+-----------------------------------------
+
+Function '__init__' ran in 1.0437874794006348 seconds
+
+
+V2
+-----------------------------------------
+WALLET
+Revenus:197.95	Cost:499.92	Number of actions:20
+Actions:
+Share-ECAQ cost(31.66) revenu(12.5)
+; Share-IXCI cost(26.32) revenu(10.37)
+; Share-FWBE cost(18.31) revenu(7.29)
+; Share-ZOFA cost(25.32) revenu(10.07)
+; Share-PLLK cost(19.94) revenu(7.96)
+; Share-LXZU cost(4.24) revenu(1.68)
+; Share-YFVZ cost(22.55) revenu(8.82)
+; Share-ANFX cost(38.55) revenu(15.31)
+; Share-PATS cost(27.7) revenu(11.07)
+; Share-SCWM cost(6.42) revenu(2.45)
+; Share-NDKR cost(33.06) revenu(13.19)
+; Share-ALIY cost(29.08) revenu(11.61)
+; Share-JWGF cost(48.69) revenu(19.44)
+; Share-JGTW cost(35.29) revenu(13.91)
+; Share-FAPS cost(32.57) revenu(12.88)
+; Share-VCAX cost(27.42) revenu(10.69)
+; Share-LFXB cost(14.83) revenu(5.9)
+; Share-DWSK cost(29.49) revenu(11.6)
+; Share-XQII cost(13.42) revenu(5.3)
+; Share-ROOM cost(15.06) revenu(5.91)
+; 
+-----------------------------------------
+
+Function '__init__' ran in 19.6495258808136 seconds
+
+
+V3
+-----------------------------------------
+WALLET
+Revenus:194.88	Cost:493.1	Number of actions:17
+Actions:
+Share-ECAQ cost(31.66) revenu(12.5)
+; Share-FWBE cost(18.31) revenu(7.29)
+; Share-ZOFA cost(25.32) revenu(10.07)
+; Share-PLLK cost(19.94) revenu(7.96)
+; Share-OPBR cost(39.0) revenu(15.19)
+; Share-ANFX cost(38.55) revenu(15.31)
+; Share-PATS cost(27.7) revenu(11.07)
+; Share-NDKR cost(33.06) revenu(13.19)
+; Share-ALIY cost(29.08) revenu(11.61)
+; Share-JWGF cost(48.69) revenu(19.44)
+; Share-JGTW cost(35.29) revenu(13.91)
+; Share-FAPS cost(32.57) revenu(12.88)
+; Share-ZKSN cost(22.83) revenu(8.82)
+; Share-IJFT cost(40.91) revenu(15.91)
+; Share-LFXB cost(14.83) revenu(5.9)
+; Share-DWSK cost(29.49) revenu(11.6)
+; Share-GEBJ cost(5.87) revenu(2.23)
+; 
+-----------------------------------------
+
+Function '__init__' ran in 0.16055560111999512 seconds
+
+
+V4 - D'un autre étudiant
+(197.96, [('Share-ECAQ', 31.66, 12.5), 
+('Share-IXCI', 26.32, 10.37), 
+('Share-FWBE', 18.3, 7.29), 
+('Share-ZOFA', 25.32, 10.07), 
+('Share-PLLK', 19.94, 7.96), 
+('Share-LXZU', 4.24, 1.68), 
+('Share-YFVZ', 22.55, 8.82), 
+('Share-ANFX', 38.54, 15.31), 
+('Share-PATS', 27.7, 11.07), 
+('Share-SCWM', 6.42, 2.45), 
+('Share-NDKR', 33.06, 13.19), 
+('Share-ALIY', 29.08, 11.61), 
+('Share-JWGF', 48.69, 19.44), 
+('Share-JGTW', 35.29, 13.91), 
+('Share-FAPS', 32.57, 12.88), 
+('Share-VCAX', 27.42, 10.69), 
+('Share-LFXB', 14.83, 5.9), 
+('Share-DWSK', 29.49, 11.6), 
+('Share-XQII', 13.42, 5.3), 
+('Share-ROOM', 15.06, 5.91)])
+
+Investissement = 499.9, profit = 197.96
+--- 11.26621389389038 secondes ---

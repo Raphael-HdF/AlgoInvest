@@ -7,7 +7,8 @@ from sortedcontainers import SortedDict
 MAX_INVEST = 500
 
 path = r"datas/short-dataset1_Python+P7.csv"
-
+path = r"datas/dataset1_Python+P7.csv"
+path = r"datas/dataset2_Python+P7.csv"
 
 class Optimized:
 
@@ -21,13 +22,15 @@ class Optimized:
         actual = SortedDict({x: Wallet() for x in range(max_invest + 1)})
 
         for action in self.wallet.actions:
+            memory = SortedDict(actual)
             cost = ceil(action.cost)
             for key, value in actual.items():
                 if key >= cost:
-                    new = Wallet([action] + actual[key - cost].actions)
-                    actual[key] = new if new.action_revenu > value.action_revenu else value
+                    new = Wallet([action] + memory[key - cost].actions)
+                    if self.max_invest >= new.action_cost and new.action_revenu > value.action_revenu:
+                        actual[key] = new
         best = actual.popitem()
-        print(best)
+        print(str(best[1]))
 
 
 test = Optimized(path, MAX_INVEST)
