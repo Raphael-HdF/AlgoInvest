@@ -1,5 +1,7 @@
 class StockAction:
-
+    """
+    Classe servant à vérifier que les actions ont des informations correctes + calcul du revenu
+    """
     def __init__(self, name, profit, price):
         try:
             if '%' in profit:
@@ -17,7 +19,9 @@ class StockAction:
 
 
 class Wallet:
-
+    """
+    Classe servant à stocker des objets StockAction + calculer le revenu et le cout global des actions
+    """
     def __init__(self, actions=[]):
         self.action_revenu = 0
         self.action_cost = 0

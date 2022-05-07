@@ -3,7 +3,9 @@ from models.action import StockAction, Wallet
 
 
 class Data:
-
+    """
+    Classe servant à Importer les données et Instancier uns classe Wallet avec les StockAction dedans
+    """
     def __init__(self, path):
         self.path = path
         if '.csv' in path:
